@@ -3,35 +3,15 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-toolbar>
+      <ion-title>BREAKING NEWS</ion-title>
+    </ion-toolbar>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-card *ngFor="let item of posts">
-      <ion-item>
-        <h2>{{item.title}}</h2>
-        <p><strong>Posted:</strong> {{item.created_at}}</p>
-      </ion-item>
-      
-      <ion-card-content>
-        <p>{{item.description}}</p>
-      </ion-card-content>
-    
-      <ion-row>
-        <ion-col>
-          <button ion-button icon-start clear small>
-            <ion-icon name="md-locate"></ion-icon>
-            <div>{{item.category}}</div>
-          </button>
-        </ion-col>
-        <ion-col center text-center>
-          <ion-note>
-            {{item.facult}}
-          </ion-note>
-        </ion-col>
-      </ion-row>
-    
-    </ion-card>
-
+  <ion-card class="category-concept-card" *ngFor="let item of breakings">
+      <p class="category-tag"><ion-icon ios="ios-clock" md="md-clock"></ion-icon> {{item.created_at}}</p>
+      <div [innerHTML]="item.description" ></div>
+  </ion-card>    
 </ion-content>

@@ -1,0 +1,57 @@
+<!--
+  Generated template for the BoardPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-toolbar>
+        <ion-title>IFM-NOTICE BOARD</ion-title>
+      </ion-toolbar>
+    </ion-navbar>
+  </ion-header>
+  
+
+<ion-content class="card-background-page">
+  <ion-row >
+    <ion-col col-6>
+      <ion-card class="category-concept-loss">
+        <button ion-button full clear (click)="placement()" class="category-tag"><ion-icon ios="ios-megaphone" md="md-megaphone"></ion-icon> Placements</button>
+      </ion-card> 
+    </ion-col>
+    <ion-col col-6>
+        <ion-card class="category-concept-exam">
+            <button ion-button full clear (click)="exam()" class="category-tag"> <ion-icon name="bookmarks"></ion-icon> Examinations</button>
+          </ion-card>
+    </ion-col>
+  </ion-row>  
+  <ion-row >
+      <ion-col col-6>
+        <ion-card class="category-concept-event">
+          <button ion-button full clear class="category-tag" (click)="event()"> <ion-icon name="bonfire"></ion-icon> &nbsp; Events</button>
+        </ion-card> 
+      </ion-col>
+      <ion-col col-6>
+          <ion-card class="category-concept-sport">
+              
+              <button ion-button full clear class="category-tag" (click)="sport()"> <ion-icon name="baseball"></ion-icon> &nbsp;Sports</button>
+            </ion-card>
+      </ion-col>
+    </ion-row> 
+    <ion-row >
+      <ion-col col-6>
+        <ion-card class="category-concept-exam">
+          <button ion-button full clear class="category-tag" (click)="important()"><ion-icon name="finger-print"></ion-icon> Important</button>
+        </ion-card> 
+      </ion-col>
+      <ion-col col-6>
+          <ion-card class="category-concept-loss">
+              <button ion-button full clear class="category-tag" (click)="general()"> <ion-icon name="keypad"></ion-icon> General</button>
+            </ion-card>
+      </ion-col>
+    </ion-row> 
+</ion-content>

@@ -1,0 +1,32 @@
+page-event {
+    .category-concept-card
+	{
+		background-color: $white-b;
+		border-radius: 0px;
+		box-shadow: none;
+		margin-bottom: 5px;
+
+		.category-title
+		{
+			color: #FFF;
+			font-weight: 600;
+			font-size: 2.2rem;
+			margin: 0px;
+		}
+
+		.category-description
+		{
+			color: #FFF;
+			margin-bottom: 20px;
+		}
+
+		.category-tag
+		{
+			border: 1px solid #FFF;
+			color: #FFF;
+			background: $black-a;
+			font-weight: 300;
+			opacity: 1.0;
+		}
+    }
+}

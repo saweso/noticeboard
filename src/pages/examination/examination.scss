@@ -1,0 +1,26 @@
+page-examination {
+    .category-concept-card
+	{
+		background-color: $white-b;
+		border-radius: 0px;
+		box-shadow: none;
+		margin-bottom: 5px;
+
+		.category-tag
+		{
+			border: 1px solid #FFF;
+			color: #FFF;
+			background: $black-a;
+			font-weight: 300;
+			opacity: 1.0;
+		}
+    }
+
+    .category-concept-info
+	{
+		background-color: $theme-color-2;
+		border-radius: 0px;
+		box-shadow: none;
+        margin-bottom: 5px;
+    }
+}

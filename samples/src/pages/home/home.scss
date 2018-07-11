@@ -1,0 +1,21 @@
+page-home {
+    ion-card {
+        position: relative;
+        text-align: center;
+    }
+    .card-title {
+        position: absolute;
+        top: 85%;
+        font-size: 1.0em;
+        width: 100%;
+        font-weight: bold;
+        background: -webkit-linear-gradient(#800000, #020435);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    ion-toolbar {
+        text-align: center;
+    }
+
+}

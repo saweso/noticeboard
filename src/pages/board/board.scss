@@ -1,0 +1,64 @@
+page-board {
+    .category-concept-loss
+	{
+		background-color: $theme-color-2;
+		border-radius: 0px;
+		box-shadow: none;
+        margin-bottom: 0px;
+
+		.category-tag
+		{
+			border: 1px solid #FFF;
+			color:$black-b;
+			font-weight: 300;
+			opacity: 1.0;
+		}
+    }
+
+    .category-concept-exam
+	{
+		background-color: $theme-color-4;
+		border-radius: 0px;
+		box-shadow: none;
+        margin-bottom: 0px;
+
+		.category-tag
+		{
+			border: 1px solid #FFF;
+			color:$black-b;
+			font-weight: 300;
+			opacity: 1.0;
+		}
+    }
+
+    .category-concept-sport
+	{
+		background-color: $theme-color-1;
+		border-radius: 0px;
+		box-shadow: none;
+        margin-bottom: 0px;
+
+		.category-tag
+		{
+			border: 1px solid #FFF;
+			color:$black-b;
+			font-weight: 300;
+			opacity: 1.0;
+		}
+    }
+    .category-concept-event
+	{
+		background-color: $theme-color-3;
+		border-radius: 0px;
+		box-shadow: none;
+        margin-bottom: 0px;
+
+		.category-tag
+		{
+			border: 1px solid #FFF;
+			color:$black-b;
+			font-weight: 300;
+			opacity: 1.0;
+		}
+    }
+}

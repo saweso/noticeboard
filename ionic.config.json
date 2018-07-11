@@ -1,8 +1,9 @@
 {
   "name": "mobileApp",
-  "app_id": "1e7c3e24",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "pro_id": "1e7c3e24",
+  "app_id": ""
 }
